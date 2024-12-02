@@ -13,9 +13,10 @@ const Banner = () => {
              Cooking is more than just preparing food; it’s a delightful mix of science, art, and love. At its core, cooking transforms raw ingredients into meals through techniques like boiling, roasting, grilling, and baking. Each method alters the   flavor, texture, and appearance, making it not only edible but enjoyable.
              </p>
               <div className="text-center pt-10">
-              <button className='bg-green-500 px-6 py-2 rounded-full '>Explore now</button>
-              <button className='bg-green-500 px-6 py-2 rounded-full'>our feedback</button>
-              </div>
+              <button className=' bg-green-500 px-6 py-2 rounded-full '>Explore Now</button>
+               <button className= ' bg-green-500 px-6 py-2 border-solid  border-black rounded-full ml-5 text-black'>Our Feedback</button></div>
+               
+               
 
         </div>
     );
