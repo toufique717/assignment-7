@@ -20,7 +20,10 @@ function App() {
        <Ourrecepie></Ourrecepie>
         
        <div className='md:flex mt-8'>
-       <Items></Items>
+        <div className=''>
+          <Items></Items>
+          </div>
+        
        <Cooking></Cooking>
         
 
