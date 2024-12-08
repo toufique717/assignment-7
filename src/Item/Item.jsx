@@ -4,13 +4,15 @@ import burner from './burner.png'
 
 const Item = ({item}) => {
     //console.log(item)
-    const {recipe_image,recipe_name,short_description,preparing_time,calories} =item;
+    const {recipe_image,recipe_name,short_description,preparing_time,calories,ingredients} =item;
     return (
         <div className='border-8'>
              <div className='p-8'>
              <p><img className='h-36 w-full rounded-xl' src= {recipe_image}></img></p>
-            <p>{recipe_name}</p>
-            <p>{short_description}</p>
+            <p className='text-xl font-bold pt-3'>{recipe_name}</p>
+            <p className='py-4 border-b-2'>{short_description}</p>
+
+            <p className='text-xl font-bold py-4 border-b-2'>Ingredients :{ingredients.length}</p>
               <div className='flex justify-between'>
               <div className='flex'>
              <img src= {watch}></img>
